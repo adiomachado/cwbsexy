@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+/*
+a[href="http://www.google.com"]{
+	background-color: red;
+}
+
+a[href="http://www.dankicode.com"]{
+	background-color: yellow;
+}
+*/
+a[href*="google"]{
+	background-color: blue;
+}

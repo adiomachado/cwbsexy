@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: orange;
+}
+
+html, body{
+	height: 100%;
+}
+
+.center{
+	/* exemplo */
+	box-sizing: content-box;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+.artigo{
+	box-sizing: border-box;
+	border: 5px solid rgba(255,255,0); 
+	vertical-align: top;
+	display: inline-block;
+	margin-right: -40px;
+	margin-top: 30px;
+	width: 640px;
+	/* 
+	rgba(255,255,0) deixa a borda transparente
+	    top   left botton rigth 
+	margin: 50px 30px 50px 30px;*/
+}
+.article{
+	
+	/* exemplo
+	height: 10%;     /* 3o. na prioridade 
+	max-height: 20%; /* 2o. na prioridade 
+	min-height: 50%; /* 1o. na prioridade 
+	background: red;
+	*/
+}
+
+.tipo1{
+	color: rgb(100,100,100);
+}
+
+.link_{
+	font-size: 30px;
+}
+
+.tipo2{
+	font-size: 40px;
+}
+
+.um{
+	width: 500px;
+	height: 800px;
+	background: red;
+}
+.um > .dois{
+	width: 300px;
+	height: 400px;
+	background: green;	
+}
+.um > .tres{
+	width: 200px;
+	height: 200px;
+	background: blue;	
+}
+.tres > .quatro{
+	width: 100px;
+	height: 100px;
+	background: gray;	
+}
+
+ul.bairro, .genero{
+	list-style-position: inside;
+	list-style-type: disc;
+	margin-left: 15px;
+}
+
+ul.bairro li, .genero li{
+	font-size: 18px;
+    color: green;
+    margin-top: 10px;
+}
+
+.bairro .item4, .bairro .item4{
+	font-weight: bold;
+}
+
+ol{
+	list-style-position: inside;
+}
+ol > li{
+	color: brown;
+}
+
+
+h1{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 10px; /*espaçamento entre as letras */
+
+}
+
+a{
+	text-decoration: none;
+	margin: 30px auto;
+}
+
+.menu{
+	width: 100%;
+	height: auto;
+	margin: 30px auto;
+	text-align: center;
+	/*
+	regula as margens internas
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 90px;
+	padding-top: 90px;
+	dentro da area. esta aqui só como exemplo
+	*/
+}
+
+.menu a{
+	color: green;
+	border: 3px solid green;
+	font-size: 20px;
+	margin: 0 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+.pai{
+	width: 1280px;
+	padding: 20px 0;
+	margin: 0 auto;
+	background: blue;
+}
+.child{
+	box-sizing: border-box;
+	width: 640px;
+	height: 300px;
+	background: red;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	padding: 50px 0;
+	color: white;
+	border: 1px solid black;
+}
+
+.artigo{
+	outline: 50px solid blue;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: -4px;
+	margin-top: 30px;
+	width: 640px;
+}
+/*
+.artigo p{
+	width: 100%;
+	height: auto;
+	background-color: rgb(200,200,200);
+	text-align: center;
+	font-family: tahoma;
+	letter-spacing: 10px; espaçamento entre as letras 
+	line-height: 20px;  distancia entre linhas 
+}*/
